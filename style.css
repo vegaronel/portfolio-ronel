@@ -250,4 +250,7 @@ a {
   .section-title{
     color: white;
   }
+  .project-card{
+    flex-direction: column;
+  }
 }
