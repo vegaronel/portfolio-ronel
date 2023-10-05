@@ -167,15 +167,14 @@ a {
   align-items: center;
   margin-top: 150px;
 }
-.btn-container {
-  width: 90px;
-}
+
 
 .section-title {
   max-width: 1440px;
   margin: auto;
 }
 .btn-me {
+  justify-content: center;
   cursor: pointer;
   background-color: #556b8a;
   width: 400px;
@@ -220,6 +219,10 @@ a {
   .title-card {
     font-size: 3.7rem;
     padding: 10px;
+  }
+  .btn-me{
+    width: 100%;
+   font-size: 15px;
   }
 
   .project-container {
