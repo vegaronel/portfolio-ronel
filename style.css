@@ -24,7 +24,7 @@ body {
   padding: 0;
 }
 #title {
-  background-image: url(images/laura-chouette-Mb8dFisnmr8-unsplash.jpg);
+  background-image: url(images/okan-you-DuV5F8H9tks-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -246,5 +246,8 @@ a {
 
   .card {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-title{
+    color: white;
   }
 }
