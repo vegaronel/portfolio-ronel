@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather:ital@1&family=Quicksand&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#title {
+  background-image: url(images/laura-chouette-Mb8dFisnmr8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+span {
+  font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: #6c6e72;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+.name-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  font-size: 4rem;
+
+  margin: auto;
+  font-family: "Dela Gothic One", sans-serif;
+  flex-direction: column;
+}
+.hello-text {
+  font-size: 2rem;
+}
+.text {
+  font-size: 1.1rem;
+  font-family: "Quicksand", sans-serif;
+  max-width: 800px;
+  line-height: 30px;
+}
+
+.skills-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.drum-image {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.title-card {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-text {
+  max-width: 1440px;
+  margin: 50px auto 10px;
+  font-size: 2rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  gap: 15px;
+}
+
+.skill-type {
+  font-size: 1.2rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.project-text {
+  font-size: 2rem;
+  margin: 150px auto 20px;
+  max-width: 1440px;
+}
+
+.project-images {
+  padding-right: 20px;
+  width: 400px;
+  height: 250px;
+}
+
+.project-container {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1440px;
+}
+
+.txt {
+  font-size: 1rem;
+}
+.project-card {
+  display: flex;
+}
+
+.txt-title {
+  font-weight: bold;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.btn-container {
+  width: 90px;
+}
+
+.section-title {
+  max-width: 1440px;
+  margin: auto;
+}
+.btn-me {
+  cursor: pointer;
+  background-color: #556b8a;
+  width: 400px;
+  padding: 15px 10px 15px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border-style: none;
+  color: aliceblue;
+  display: flex;
+}
+.btn-me:hover {
+  background-color: #a3b4cc;
+  color: black;
+}
+
+.ready-text {
+  font-size: 1.5rem;
+  color: #556b8a;
+  font-family: "Quicksand", sans-serif;
+}
+
+.footer-container {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 20px 0 20px;
+  align-items: center;
+}
+
+#foot {
+  background-color: rgb(41, 79, 112);
+}
+
+.text-foot {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .nav-container {
+    display: none;
+  }
+  .title-card {
+    font-size: 3.7rem;
+    padding: 10px;
+  }
+
+  .project-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .skills-card {
+    flex-direction: column;
+  }
+  .skill {
+    text-align: center;
+    margin: auto;
+    width: 300px;
+  }
+
+  .skill-type {
+    width: 100%;
+  }
+
+  .card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
