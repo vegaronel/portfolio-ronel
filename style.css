@@ -178,9 +178,9 @@ a {
   cursor: pointer;
   background-color: #556b8a;
   width: 400px;
-  padding: 15px 10px 15px;
+
   font-size: 1.2rem;
-  border-radius: 25px;
+  border-radius: 50px;
   border-style: none;
   color: aliceblue;
   display: flex;
