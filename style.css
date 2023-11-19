@@ -104,7 +104,6 @@ a {
   max-width: 1440px;
   margin: 50px auto 10px;
   font-size: 2rem;
-  padding-left: 20px;
 }
 
 .skill {
@@ -134,7 +133,7 @@ a {
   font-size: 2rem;
   margin: 150px auto 20px;
   max-width: 1440px;
-  padding-left: 20px;
+
 }
 
 .project-images {
@@ -254,7 +253,17 @@ a {
   .section-title{
     color: white;
   }
+
+  .skill-text {
+
+  padding-left: 20px;
+}
+
+  .project-text {
+ 
+padding-left: 20px;
+}
   .project-card{
     flex-direction: column;
   }
-}
+
